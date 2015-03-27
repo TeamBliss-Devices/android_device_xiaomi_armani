@@ -56,3 +56,8 @@ persist.radio.msgtunnel.start=false
 persist.radio.multisim.config=dsds
 persist.radio.rat_on=combine
 ro.telephony.call_ring.multiple=false
+
+# GCC Build Prop Lines
+ro.sm.flags=Extreme
+ro.sm.android=4.8-sm
+ro.sm.kernel=4.8-linaro
