@@ -156,7 +156,7 @@ TARGET_USES_QCOM_WCNSS_QMI := true
 
 # BlissPop Config Flags
 TARGET_TC_ROM := 4.8
-TARGET_TC_KERNEL := 4.7-linaro
+TARGET_TC_KERNEL := 4.8-sm
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := true
