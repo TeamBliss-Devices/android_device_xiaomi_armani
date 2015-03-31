@@ -780,7 +780,7 @@
 
     <path name="handset-mic">
         <path name="adc1" />
-        <ctl name="ADC1 Volume" value="14" />
+        <ctl name="ADC1 Volume" value="15" />
     </path>
 
     <path name="anc-handset">
@@ -826,7 +826,7 @@
 
     <path name="voice-handset">
         <path name="handset" />
-        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX1 Digital Volume" value="91" />
     </path>
 
     <path name="voice-handset-tmus">
