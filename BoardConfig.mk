@@ -89,7 +89,6 @@ TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
-TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Shader cache config options
@@ -112,6 +111,9 @@ TARGET_LIBINIT_DEFINES_FILE := device/xiaomi/armani/init/init_armani.c
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
+
+# Memory
+MALLOC_IMPL := dlmalloc
 
 # Power
 TARGET_POWERHAL_VARIANT := qcom

@@ -7,8 +7,8 @@ persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
-audio.offload.pcm.16bit.enable=true
-audio.offload.pcm.24bit.enable=true
+audio.offload.pcm.16bit.enable=false
+audio.offload.pcm.24bit.enable=false
 audio.offload.disable=1
 av.offload.enable=true
 use.voice.path.for.pcm.voip=true
@@ -27,13 +27,6 @@ debug.composition.type=c2d
 persist.hwc.mdpcomp.enable=true
 debug.mdpcomp.logs=0
 dev.pm.dyn_samplingrate=1
-
-# Location
-ro.gps.agps_provider=1
-ro.qc.sdk.izat.premium_enabled=1
-ro.qc.sdk.izat.service_mask=0x5
-persist.gps.qc_nlp_in_use=1
-persist.loc.nlp_name=com.qualcomm.services.location
 
 # Media
 media.stagefright.enable-player=true
