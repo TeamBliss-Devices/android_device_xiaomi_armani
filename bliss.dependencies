@@ -1,0 +1,32 @@
+[
+    {
+        "remote": "github",
+        "repository": "TeamBliss-LP/android_kernel_xiaomi_armani",
+        "target_path": "kernel/xiaomi/armani",
+        "revision": "lp5.1"
+    },
+    {
+        "remote": "github",
+        "repository": "TeamBliss-LP/android_device_xiaomi_armani",
+        "target_path": "device/xiaomi/armani",
+        "revision": "lp5.1"
+    },
+    {
+        "remote": "github",
+        "repository": "TeamBliss-Devices/proprietary_vendor_xiaomi",
+        "target_path": "vendor/xiaomi",
+        "revision": "lp5.1"
+    },
+    {
+        "remote": "cm",
+        "repository": "android_device_qcom_common",
+        "target_path": "device/qcom/common",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "cm",
+        "repository": "android_hardware_qcom_fm",
+        "target_path": "hardware/qcom/fm",
+        "revision": "cm-12.1"
+    }
+]
